@@ -1,0 +1,53 @@
+<svg width="820" height="220" viewBox="0 0 820 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boxGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A5276"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6" fill="#00d4ff"/>
+    </marker>
+  </defs>
+
+  <rect width="820" height="220" fill="#0d1117" rx="14"/>
+  <text x="410" y="30" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="15" fill="#00d4ff" font-weight="bold">U.S. Navy Circumference Method — Calculation Flow</text>
+
+  <path d="M150,130 L330,130" stroke="#00d4ff" stroke-width="2" marker-end="url(#arrow2)"/>
+  <path d="M480,130 L660,130" stroke="#00d4ff" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <!-- particle flow -->
+  <circle r="5" fill="#00d4ff">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M100,130 L720,130"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#f59e0b">
+    <animateMotion dur="3.2s" begin="1.1s" repeatCount="indefinite" path="M100,130 L720,130"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="3.2s" begin="1.1s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="Verdana, Arial, sans-serif">
+    <!-- box 1 -->
+    <rect x="30" y="80" width="180" height="100" rx="16" fill="url(#boxGrad2)" stroke="#00d4ff" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.2s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="120" y="120" text-anchor="middle" font-size="24" fill="#ffffff">📏</text>
+    <text x="120" y="145" text-anchor="middle" font-size="12" fill="#e5e7eb">Measurements</text>
+    <text x="120" y="162" text-anchor="middle" font-size="9" fill="#9ca3af">age · height · waist · neck</text>
+
+    <!-- box 2 -->
+    <rect x="320" y="80" width="180" height="100" rx="16" fill="url(#boxGrad2)" stroke="#00d4ff" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.2s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="410" y="120" text-anchor="middle" font-size="24" fill="#ffffff">🧮</text>
+    <text x="410" y="145" text-anchor="middle" font-size="12" fill="#e5e7eb">Navy Log Formula</text>
+    <text x="410" y="162" text-anchor="middle" font-size="9" fill="#9ca3af">gender-specific coefficients</text>
+
+    <!-- box 3 -->
+    <rect x="610" y="80" width="180" height="100" rx="16" fill="url(#boxGrad2)" stroke="#00d4ff" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.2s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="700" y="120" text-anchor="middle" font-size="24" fill="#ffffff">🩺</text>
+    <text x="700" y="145" text-anchor="middle" font-size="12" fill="#e5e7eb">Body Fat % + Tips</text>
+    <text x="700" y="162" text-anchor="middle" font-size="9" fill="#9ca3af">category + health guidance</text>
+  </g>
+</svg>
