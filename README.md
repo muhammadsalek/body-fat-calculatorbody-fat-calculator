@@ -1,17 +1,17 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1A5276,100:00d4ff&height=220&section=header&text=PolicyShift%20v2.0&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Counterfactual%20Policy%20Simulator%20%7C%20International%20Competition%20Edition&descAlignY=58&descSize=20" alt="PolicyShift banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1A5276,100:00d4ff&height=220&section=header&text=Body%20Fat%20Calculator&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=U.S.%20Navy%20Method%20%7C%20Interactive%20Health%20%26%20Fitness%20Tool&descAlignY=58&descSize=20" alt="Body Fat Calculator banner"/>
 
-<a href="https://salek.shinyapps.io/policyshift/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=780&lines=Counterfactual+Simulation+for+Public+Health+Policy;Random+Forest+%2B+Survey-Weighted+ML+Engine;g-Computation+for+Evidence-Based+Decision-Making;Built+by+Md+Salek+Miah+%40+SUST+Bangladesh" alt="Typing SVG" />
+<a href="https://qa8m8h-md0salek-miah.shinyapps.io/calculator/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=780&lines=Instant+Body+Fat+%25+Estimation;U.S.+Navy+Circumference+Method;Gender-Specific+Health+Guidance;Built+by+Md+Salek+Miah+%40+SUST+Bangladesh" alt="Typing SVG" />
 </a>
 
 </div>
 
 <div align="center">
 
-[![Live App](https://img.shields.io/badge/🚀_Live_App-Launch_PolicyShift-00d4ff?style=for-the-badge&labelColor=0d1117)](https://salek.shinyapps.io/policyshift/)
-[![Status](https://img.shields.io/badge/Status-Competition_Ready-f59e0b?style=for-the-badge&labelColor=0d1117)](https://github.com/muhammadsalek/PolicyShift)
+[![Live App](https://img.shields.io/badge/🩺_Live_App-Launch_Calculator-00d4ff?style=for-the-badge&labelColor=0d1117)](https://qa8m8h-md0salek-miah.shinyapps.io/calculator/)
+[![Status](https://img.shields.io/badge/Status-Live-22c55e?style=for-the-badge&labelColor=0d1117)](https://github.com/muhammadsalek/body-fat-calculator)
 [![License](https://img.shields.io/badge/License-MIT-7c3aed?style=for-the-badge&labelColor=0d1117&logo=opensourceinitiative&logoColor=7c3aed)](LICENSE)
 
 </div>
@@ -20,43 +20,26 @@
 
 ![R](https://img.shields.io/badge/R_4.5.1-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Shiny](https://img.shields.io/badge/Shiny-Reactive_UI-0071CE?style=flat-square&logo=rstudio&logoColor=white)
-![RandomForest](https://img.shields.io/badge/Random_Forest-ML_Engine-228B22?style=flat-square&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive_Viz-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![gComputation](https://img.shields.io/badge/g--computation-Causal_Inference-6A0DAD?style=flat-square&logoColor=white)
-![SurveyWeighted](https://img.shields.io/badge/Survey--Weighted-ML-e67e22?style=flat-square&logoColor=white)
-![shinydashboard](https://img.shields.io/badge/shinydashboard-UI_Framework-ef4444?style=flat-square&logoColor=white)
-![DT](https://img.shields.io/badge/DT-Data_Tables-10b981?style=flat-square&logoColor=white)
+![NavyMethod](https://img.shields.io/badge/U.S._Navy-Circumference_Method-228B22?style=flat-square&logoColor=white)
+![HealthTech](https://img.shields.io/badge/Health-Fitness_Tool-e67e22?style=flat-square&logoColor=white)
+![Responsive](https://img.shields.io/badge/UI-Responsive-6A0DAD?style=flat-square&logoColor=white)
 
 </div>
 
 <p align="center">
-  <img src="policyshift-pipeline-animated.svg" width="800" alt="PolicyShift live reactive pipeline — animated">
+  <img src="bodyfat-formula-diagram.svg" width="780" alt="U.S. Navy body fat formula calculation flow — animated">
 </p>
-<p align="center"><sub>Animated pipeline: data flows through Upload → Exploratory → ML Model → Simulation → Report in real time within the app.</sub></p>
+<p align="center"><sub>Animated calculation flow: measurements feed the gender-specific Navy log formula, producing a body fat % and health guidance.</sub></p>
 
 ---
 
 ## Overview
 
-**PolicyShift** is an interactive **counterfactual policy simulation platform** that lets researchers and policy analysts test "what-if" scenarios on public health outcomes *before* committing real-world resources. Built on a **Random Forest machine learning engine** combined with **survey-weighted g-computation**, PolicyShift converts observational survey data (DHS/MICS-style) into an evidence-based decision-support tool — no coding required.
+**Body Fat Calculator** is a lightweight, interactive **R Shiny web app** that estimates body fat percentage using the **U.S. Navy circumference method** — a validated, equipment-free anthropometric approach requiring only tape-measure inputs. Users enter gender, age, height, waist circumference, and neck circumference (with an additional hip measurement for females), and receive an instant body fat percentage estimate alongside categorized health guidance.
 
-> Upload data → train the model → move a slider → watch the predicted health outcome shift in real time.
+> Enter your measurements → click Calculate → get an instant, gender-specific body fat % estimate with actionable health tips.
 
-This repository contains the full source code for **PolicyShift v2.0 (Competition Edition)**, submitted as a showcase of applied biostatistics, causal inference, and full-stack R Shiny engineering — alongside the accompanying **Q1-journal manuscript** and **methodology flow diagram** documenting the underlying framework.
-
-<div align="center">
-
-### ⚡ Workflow at a Glance
-
-</div>
-
-| Step | Module | What Happens |
-|:----:|:-------|:--------------|
-| **1️⃣** | 📂 **Data Upload** | Load survey data with health outcomes (sample dataset included) |
-| **2️⃣** | 📊 **Exploratory** | Auto-generated descriptive statistics & distribution plots |
-| **3️⃣** | 🤖 **ML Model** | Random Forest trained with variable-importance ranking |
-| **4️⃣** | 🔮 **Simulation** | Interactive sliders drive counterfactual g-computation |
-| **5️⃣** | 📥 **Download** | One-click professional HTML report generation |
+Designed for accessibility and speed, the app requires no account, no installation, and no technical background — just a tape measure and 30 seconds.
 
 ---
 
@@ -64,11 +47,24 @@ This repository contains the full source code for **PolicyShift v2.0 (Competitio
 
 <div align="center">
 
-[![Launch PolicyShift](https://img.shields.io/badge/🧠_Launch_PolicyShift-Click_to_Open_App-00d4ff?style=for-the-badge&labelColor=0d1117)](https://salek.shinyapps.io/policyshift/)
+[![Launch Body Fat Calculator](https://img.shields.io/badge/🩺_Launch_App-qa8m8h--md0salek--miah.shinyapps.io/calculator-00d4ff?style=for-the-badge&labelColor=0d1117)](https://qa8m8h-md0salek-miah.shinyapps.io/calculator/)
 
-*Perfect for: policy analysts · public health researchers · government health officials · graduate methods courses*
+**👉 [https://qa8m8h-md0salek-miah.shinyapps.io/calculator/](https://qa8m8h-md0salek-miah.shinyapps.io/calculator/)**
 
 </div>
+
+---
+
+## How It Works
+
+| Step | Input | Description |
+|:----:|:------|:-------------|
+| **1️⃣** | **Gender** | Select Male or Female (determines which body-fat formula and coefficients are applied) |
+| **2️⃣** | **Age** | Enter age in years |
+| **3️⃣** | **Height (cm)** | Standing height, no shoes |
+| **4️⃣** | **Waist Circumference (cm)** | Measured at the navel level |
+| **5️⃣** | **Neck Circumference (cm)** | Measured just below the larynx |
+| **✅** | **Calculate** | Returns estimated body fat % and a health category |
 
 ---
 
@@ -78,64 +74,69 @@ This repository contains the full source code for **PolicyShift v2.0 (Competitio
 <tr>
 <td width="50%" valign="top">
 
-**🔮 Simulation Engine**
-- Counterfactual policy simulation via g-computation
-- Individual-level counterfactual explanations
-- Subgroup heterogeneity analysis (urban/rural, wealth quintile)
+**🧮 Estimation Engine**
+- U.S. Navy circumference-based formula
+- Gender-specific coefficients (male/female)
+- Instant, client-side reactive calculation
 
-**🤖 Machine Learning**
-- Random Forest classifier with variable-importance ranking
-- Survey-weighted training pipeline
-- Automated train/test validation with ROC/AUC diagnostics
+**🎯 Accessibility**
+- No login, no installation, no data storage
+- Mobile-friendly responsive layout
+- Works with just a standard tape measure
 
 </td>
 <td width="50%" valign="top">
 
-**📊 Visualization**
-- Fully interactive Plotly graphics (zoom, hover, export)
-- Real-time slider-driven outcome projection
-- Dynamic importance & distribution charts
+**🩺 Health Guidance**
+- Categorized result interpretation
+- Curated evidence-based health tips
+- Encourages routine health monitoring
 
-**📥 Reporting**
-- One-click professional HTML report export
-- Publication-style tables and figures
-- Reproducible, shareable simulation summaries
+**⚙️ Engineering**
+- Built entirely in R Shiny
+- Single-file deployment (`app.R`)
+- Hosted free on shinyapps.io
 
 </td>
 </tr>
 </table>
 
+---
+
+## 🩺 Health Tips to Stay Fit and Safe
+
+- 🍎 Maintain a balanced diet rich in fruits, vegetables, and whole grains
+- 🏃‍♂️ Engage in regular physical activity (at least 150 minutes per week)
+- 🚫 Avoid excessive sugar, salt, and saturated fats
+- 🩺 Monitor your blood pressure and blood sugar regularly
+- 🛌 Get enough sleep (7–8 hours per night)
+- 🧘 Manage stress through relaxation techniques or hobbies
+- 🚭 Avoid smoking and limit alcohol consumption
+
 <p align="center">
-  <img src="policyshift-importance-chart.svg" width="700" alt="Random Forest variable importance — animated bar chart">
+  <img src="bodyfat-category-gauge.svg" width="560" alt="Body fat percentage category gauge — animated needle sweep">
 </p>
-<p align="center"><sub>Illustrative Random Forest variable-importance ranking as rendered in the 🤖 ML Model tab — bars animate in on load.</sub></p>
+<p align="center"><sub>Illustrative result gauge — the needle sweeps to the calculated category (Essential · Athletic · Fitness · Average · Obese) on load.</sub></p>
 
 ---
 
-## Analysis Pipeline
+## Analysis / App Logic Pipeline
 
 ```
-Survey Data (Upload or Sample)
+User Inputs
+  (gender · age · height · waist · neck [· hip for female])
         │
-        ▼  Cleaning · recoding · survey-weight assignment
-  Data Upload Module        (📂 Data Upload tab)
-        │
-        ▼
-  Exploratory Analysis      descriptive statistics · distribution plots
-    (📊 EDA tab)             correlation diagnostics
+        ▼  Input validation (reactive, client-side)
+  Formula Selection      U.S. Navy method — gender-specific equation
         │
         ▼
-  ML Model Training         Random Forest (survey-weighted)
-    (🤖 Model tab)           variable-importance ranking · ROC/AUC
+  Body Fat % Estimation  log-based circumference formula
         │
         ▼
-  Counterfactual Engine     g-computation · policy-slider inputs
-    (🔮 Simulation tab)      individual-level counterfactual explanations
-                             subgroup heterogeneity (urban/rural · wealth)
+  Result Categorization  essential / athletic / fitness / average / obese
         │
         ▼
-  Reporting                 interactive Plotly dashboards
-    (📥 Download tab)        exportable HTML policy-impact report
+  Output Display         estimated body fat % + health tips panel
 ```
 
 ---
@@ -157,42 +158,14 @@ Shahjalal University of Science and Technology (SUST), Sylhet-3114, Bangladesh
 ## Repository Structure
 
 ```
-PolicyShift/
+body-fat-calculator/
 │
-├── README.md                          ← This file
-├── app.R                              ← Main Shiny application (UI + server logic)
-│                                        public-health-policy-simulator: data upload,
-│                                        EDA, Random Forest training, g-computation
-│                                        simulation engine, and report export — all
-│                                        modules live in this single reactive app
-├── policyshift_sample_data.csv        ← Sample survey dataset for demo purposes
-├── Work_flow.tiff                     ← Methodology flow diagram (data → model →
-│                                        simulation → report pipeline)
-├── PolicyShift_Q1_Journal_Paper.docx  ← Q1-standard manuscript describing the
-│                                        methodology, validation, and competition
-│                                        submission for PolicyShift v2.0
-└── LICENSE                            ← MIT License
+├── README.md          ← This file
+├── app.R              ← Main Shiny application (UI + server logic,
+│                         U.S. Navy body fat formula, health-tips panel)
+├── .gitignore         ← Standard R/RStudio ignore rules
+└── LICENSE            ← MIT License
 ```
-
-> **Note:** PolicyShift is intentionally packaged as a **single-file Shiny app** (`app.R`) for ease of deployment on shinyapps.io — all modules (data upload, EDA, ML training, simulation, and reporting) are organized as reactive sections within this one script.
-
----
-
-## Methodology Flow
-
-<div align="center">
-<img src="Work_flow.tiff" width="720" alt="PolicyShift methodology flow diagram">
-</div>
-
-The diagram above traces the full analytical pipeline — from raw survey data ingestion through Random Forest model training to counterfactual g-computation and final report generation — matching the five-tab structure of the live app (📂 Data Upload → 📊 Exploratory → 🤖 ML Model → 🔮 Simulation → 📥 Download).
-
----
-
-## Manuscript
-
-A **Q1-journal-standard manuscript** documenting the methodology, model validation, and simulation framework behind PolicyShift v2.0 is included in this repository:
-
-[![Manuscript](https://img.shields.io/badge/📄_Manuscript-PolicyShift_Q1_Journal_Paper.docx-1A5276?style=for-the-badge&labelColor=0d1117)](PolicyShift_Q1_Journal_Paper.docx)
 
 ---
 
@@ -202,27 +175,21 @@ A **Q1-journal-standard manuscript** documenting the methodology, model validati
 
 ```r
 # Install required packages
-packages <- c(
-  "shiny", "shinydashboard", "randomForest", "survey",
-  "plotly", "DT", "dplyr", "ggplot2", "rmarkdown"
-)
+packages <- c("shiny")
 
 installed <- packages %in% rownames(installed.packages())
 if (any(!installed)) install.packages(packages[!installed], dependencies = TRUE)
 invisible(lapply(packages, library, character.only = TRUE))
 
 # Clone and launch the app locally
-git clone https://github.com/muhammadsalek/PolicyShift.git
-setwd("PolicyShift")
+git clone https://github.com/muhammadsalek/body-fat-calculator.git
+setwd("body-fat-calculator")
 shiny::runApp("app.R")
-
-# Or load the bundled sample dataset directly within the app's
-# 📂 Data Upload tab: policyshift_sample_data.csv
 ```
 
 Or simply try the hosted version — no installation required:
 
-**👉 [https://salek.shinyapps.io/policyshift/](https://salek.shinyapps.io/policyshift/)**
+**👉 [https://qa8m8h-md0salek-miah.shinyapps.io/calculator/](https://qa8m8h-md0salek-miah.shinyapps.io/calculator/)**
 
 ---
 
@@ -230,55 +197,42 @@ Or simply try the hosted version — no installation required:
 
 | Component | Detail |
 |:----------|:-------|
-| **Platform** | R Shiny (reactive web application) |
-| **ML Algorithm** | Random Forest with variable-importance ranking |
-| **Causal Framework** | Counterfactual g-computation |
-| **Weighting** | Survey-weighted estimation throughout |
-| **Subgroup Analysis** | Urban/rural and wealth-quintile heterogeneity |
-| **Explainability** | Individual-level counterfactual explanations |
-| **Visualization** | Plotly (interactive), dynamic slider-linked charts |
-| **Output** | Downloadable, publication-style HTML report |
-| **Target Users** | Policy analysts, public health researchers, government officials |
+| **Platform** | R Shiny (single-file reactive web application) |
+| **Method** | U.S. Navy circumference-based body fat estimation |
+| **Required Inputs** | Gender, age, height (cm), waist circumference (cm), neck circumference (cm) |
+| **Output** | Estimated body fat percentage + categorized health interpretation |
+| **Guidance Module** | Curated, evidence-based lifestyle and health-monitoring tips |
+| **Target Users** | General public, fitness enthusiasts, students, health educators |
+| **Data Handling** | No data storage — all calculations performed client-side per session |
 
 ---
 
-## Related Publications
+## Disclaimer
 
-This tool builds on methodological work from a series of DHS-based analyses:
-
-- **Nepal ECE (2026):** Miah MS et al. Household Water and Handwashing Facilities and Early Childhood Education Participation in Nepal. *Health Science Reports*, 9(4), e72254. [https://doi.org/10.1002/hsr2.72254](https://doi.org/10.1002/hsr2.72254)
-- **Bangladesh Depression & Internet Use (2025):** Miah MS, Ullah MO. Associations of internet use and pregnancy loss with depression and anxiety among women in Bangladesh. *BMC Women's Health*, 26, 6. [https://doi.org/10.1186/s12905-025-04166-4](https://doi.org/10.1186/s12905-025-04166-4)
-- **Lesotho Decision-Making Autonomy (2026):** Miah MS, Kabir MB. Decision-making autonomy and depressive symptoms among women in Lesotho. *Journal of Affective Disorders Reports*, 25. [https://doi.org/10.1016/j.jadr.2026.101080](https://doi.org/10.1016/j.jadr.2026.101080)
+This tool provides an **estimate only**, based on a validated anthropometric formula, and is intended for general informational and educational purposes. It is **not a substitute for professional medical advice, diagnosis, or treatment**. Please consult a qualified healthcare provider for personalized health assessments.
 
 ---
 
 ## Citation
 
-If you use this tool or its methodology in your research, please cite the repository:
+If you use this tool in teaching, research, or derivative work, please cite the repository:
 
 ```bibtex
-@misc{miah_policyshift_2026,
+@misc{miah_bodyfatcalculator_2026,
   author    = {Miah, Md Salek},
-  title     = {PolicyShift v2.0: A Counterfactual Policy Simulation Platform
-               for Public Health Decision-Making},
+  title     = {Body Fat Calculator: An Interactive Shiny Application for
+               U.S. Navy Method Body Fat Estimation},
   year      = {2026},
   publisher = {GitHub},
-  url       = {https://github.com/muhammadsalek/PolicyShift},
-  note      = {International Competition Edition}
+  url       = {https://github.com/muhammadsalek/body-fat-calculator}
 }
 ```
 
 ---
 
-## Funding & Conflicts of Interest
-
-This project received no specific funding. The author declares no conflicts of interest.
-
----
-
 ## License
 
-MIT License — Copyright © 2026 Md Salek Miah  
+MIT License — Copyright © 2025–2026 Md Salek Miah
 Open for academic, research, and educational use. **Attribution required for any reuse.**
 
 ---
@@ -287,7 +241,7 @@ Open for academic, research, and educational use. **Attribution required for any
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0d1117&height=120&section=footer"/>
 
-**Biostatistics, Epidemiology & Applied Machine Learning**  
+**Biostatistics, Public Health & Applied Digital Health Tools**  
 Department of Statistics · Shahjalal University of Science and Technology · Sylhet-3114, Bangladesh
 
 [![Made with R](https://img.shields.io/badge/Made%20with-R_4.5.1-276DC3?style=flat-square&logo=r)](https://r-project.org)
@@ -295,6 +249,6 @@ Department of Statistics · Shahjalal University of Science and Technology · Sy
 [![SUST](https://img.shields.io/badge/University-SUST%20Bangladesh-f59e0b?style=flat-square)](https://www.sust.edu)
 [![Open Access](https://img.shields.io/badge/Open_Access-CC_BY-f59e0b?style=flat-square&logo=creativecommons)](https://creativecommons.org/licenses/by/4.0/)
 
-*⭐ Star this repo if PolicyShift helped your research or teaching!*
+*⭐ Star this repo if the Body Fat Calculator helped your project or teaching!*
 
 </div>
